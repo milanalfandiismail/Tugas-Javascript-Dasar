@@ -1,0 +1,94 @@
+/* 4: Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f1f4e0; /* gray-100 */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* 2: Heading & Label */
+h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  color: #1f2937; /* gray-800 */
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #4b5563; /* gray-600 */
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 6px;
+  font-size: 0.95em;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* 1: Input Focus */
+input:focus {
+  border-color: #2563eb; /* blue-600 */
+  box-shadow: 0 0 0 2px rgb(37, 99, 235, 0.3);
+}
+
+.cl {
+  margin-bottom: 16px;
+}
+
+/* 1: Button */
+button {
+  width: 100%;
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* 3: Separator dan Teks */
+hr {
+  margin: 20px 0;
+  border-top: 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+p {
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+span {
+  font-weight: 600;
+  color: #111827;
+}
